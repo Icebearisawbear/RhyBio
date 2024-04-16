@@ -1,0 +1,38 @@
+body{
+  background-image: url("https://i.imgur.com/Dl5zSaL.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+body::before{
+    height: 1920px;
+    width: 1900px;
+     background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    content: "";
+} 
+
+body h4{
+    position: relative;
+    z-index: 1;
+}
+
+body pre{
+  position: relative;
+  z-index: 1;
+}
+
+body h1{
+  position: relative;
+  z-index: 1;
+}
+
+body img{
+  position: relative;
+  z-index: 1;
+}
