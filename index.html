@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+  .therestofthebody {
+    font-family: 'Roboto' , sans-serif;
+  }
+  .title {
+    font-family: 'Roboto' , sans-serif;
+    color: white;
+  }
+</style>
+  <title>
+    Rhy's Bio
+  </title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body id="container" style="background-color: black; color: #bb00ff;">
+<h1 class="title">
+  <center>
+  Rhy's Bio
+  </center>
+</h1>
+<hr>
+
+  <h4 class="therestofthebody" style="color: #9d9b9b; letter-spacing: 1px;">
+   Yes I am Rhy don't wear it out. I am no special besides my bad aim but I clutch when needed. Op is on top for me alongside any sniper. I mostly play Iso. I do then think and cry about my mistakes after dying. I am the best teammate you can ask for (the rest of the team thinks otherwise, Ice especially). My specialty is my luck.
+  </h4>
+<hr>
+<h2><center>
+<a href="" class="button" style="font-family: 'Roboto', sans-serif;">Return back to the main page!</a></h2></center>
+  
+  <p><pre align = "center" style = "color: white;"> &copy Highschool DXD 2024 </pre></p>
+
+  <script>
+      (function() {
+          document.addEventListener("mousemove", parallax);
+          const elem = document.querySelector("#container");
+
+          function parallax(e) {
+              let _w = window.innerWidth/2;
+              let _h = window.innerHeight/2;
+              let _mouseX = e.clientX;
+              let _mouseY = e.clientY;
+              let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.01}%`;
+              let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${50 - (_mouseY - _h) * 0.02}%`;
+              let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${50 - (_mouseY - _h) * 0.06}%`;
+              let x = `${_depth3}, ${_depth2}, ${_depth1}`;
+              elem.style.backgroundPosition = x;
+          }
+      })();
+  </script>
+
+</body>
+
+</html>
