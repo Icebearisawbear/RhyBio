@@ -15,7 +15,7 @@ body{
     background-attachment: fixed;
 }
 body::before{
-    height: 400%;
+    height: 200%;
     width: 100.35%;
      background-color: rgba(0, 0, 0, .7);
     position: absolute;
